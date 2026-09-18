@@ -5,20 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe
-  server: 104.18.80.149
-  port: 443
-  udp: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-4017ea8bea78
-  tls: true
-  servername: zeus-panel-mvtum1.mahdiharchegani.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/4017ea8bea78/loc-4fp=unsafe
-    headers:
-      Host: zeus-panel-mvtum1.mahdiharchegani.workers.dev
-- name: 🇺🇿 乌兹别克斯坦 (Uzbekistan) 02 - xiaohe
   server: 189.74.97.43
   port: 2087
   udp: true
@@ -27,7 +13,7 @@ proxies:
   network: ws
   ws-opts:
     path: /73b6faea2d00
-- name: 🇺🇿 乌兹别克斯坦 (Uzbekistan) 03 - xiaohe
+- name: 🇺🇿 乌兹别克斯坦 (Uzbekistan) 02 - xiaohe
   server: 189.74.97.47
   port: 2087
   udp: true
@@ -43,7 +29,6 @@ proxy-groups:
   - AUTO
   - 🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe
   - 🇺🇿 乌兹别克斯坦 (Uzbekistan) 02 - xiaohe
-  - 🇺🇿 乌兹别克斯坦 (Uzbekistan) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -51,6 +36,5 @@ proxy-groups:
   proxies:
   - 🇺🇿 乌兹别克斯坦 (Uzbekistan) 01 - xiaohe
   - 🇺🇿 乌兹别克斯坦 (Uzbekistan) 02 - xiaohe
-  - 🇺🇿 乌兹别克斯坦 (Uzbekistan) 03 - xiaohe
 rules:
 - MATCH,PROXIES
