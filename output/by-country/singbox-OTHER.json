@@ -6,34 +6,31 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.21.70.21",
+      "server": "104.16.10.235",
       "server_port": 443,
-      "uuid": "efe19c5a-0ea1-4666-8a4c-4a33f4670775",
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
       "tls": {
         "enabled": true,
-        "server_name": "playlux.homes",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
+        "server_name": "u.srilankangrill.online",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/raccoonwsvless",
+        "path": "/",
         "headers": {
-          "Host": "playlux.homes"
+          "Host": "u.srilankangrill.online"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "ccs2g.pai50288.uk",
+      "server": "104.16.10.235",
       "server_port": 443,
-      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
       "tls": {
         "enabled": true,
-        "server_name": "ccs2g.pai50288.uk",
+        "server_name": "u.srilankangrill.online",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -42,7 +39,115 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/pai50288"
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
+      "server": "fi.snobvpn.online",
+      "server_port": 80,
+      "uuid": "246b101b-4e4a-451f-8e9c-5e8d3b64b4ef",
+      "transport": {
+        "type": "ws",
+        "path": "/snob-ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 04 - xiaohe",
+      "server": "104.25.30.10",
+      "server_port": 443,
+      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
+      "tls": {
+        "enabled": true,
+        "server_name": "de14.69lover.my",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/6c316c769ad6853c/stream",
+        "headers": {
+          "Host": "de14.69lover.my"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
+      "server": "104.25.30.10",
+      "server_port": 443,
+      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
+      "tls": {
+        "enabled": true,
+        "server_name": "de14.69lover.my",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/6c316c769ad6853c/stream",
+        "headers": {
+          "Host": "de14.69lover.my"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 06 - xiaohe",
+      "server": "104.25.30.10",
+      "server_port": 443,
+      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
+      "tls": {
+        "enabled": true,
+        "server_name": "de14.69lover.my",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/6c316c769ad6853c/stream",
+        "headers": {
+          "Host": "de14.69lover.my"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 07 - xiaohe",
+      "server": "104.25.30.10",
+      "server_port": 443,
+      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
+      "tls": {
+        "enabled": true,
+        "server_name": "de14.69lover.my",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/6c316c769ad6853c/stream",
+        "headers": {
+          "Host": "de14.69lover.my"
+        }
       }
     },
     {
@@ -51,7 +156,12 @@
       "outbounds": [
         "auto",
         "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe"
+        "🌐 其他地区 (Other) 02 - xiaohe",
+        "🌐 其他地区 (Other) 03 - xiaohe",
+        "🌐 其他地区 (Other) 04 - xiaohe",
+        "🌐 其他地区 (Other) 05 - xiaohe",
+        "🌐 其他地区 (Other) 06 - xiaohe",
+        "🌐 其他地区 (Other) 07 - xiaohe"
       ]
     },
     {
@@ -59,7 +169,12 @@
       "tag": "auto",
       "outbounds": [
         "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe"
+        "🌐 其他地区 (Other) 02 - xiaohe",
+        "🌐 其他地区 (Other) 03 - xiaohe",
+        "🌐 其他地区 (Other) 04 - xiaohe",
+        "🌐 其他地区 (Other) 05 - xiaohe",
+        "🌐 其他地区 (Other) 06 - xiaohe",
+        "🌐 其他地区 (Other) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
