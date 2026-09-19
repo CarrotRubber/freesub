@@ -7,38 +7,25 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe",
       "server": "195.238.126.20",
-      "server_port": 9045,
+      "server_port": 9002,
       "method": "aes-256-cfb",
-      "password": "Lp27rqyJq72bZsqX"
+      "password": "b8KkNDjEd5QqFyRm"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 02 - xiaohe",
-      "server": "103.139.51.31",
-      "server_port": 443,
-      "uuid": "71b91642-93ed-4923-8cab-877e19bfc2d6",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.figmafound.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24",
-          "short_id": "711ad7f475c35e5e"
-        }
-      }
+      "server": "195.238.126.20",
+      "server_port": 9011,
+      "method": "aes-256-cfb",
+      "password": "M3t2ZEQcMGRWBjRa"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 03 - xiaohe",
       "server": "195.238.126.20",
-      "server_port": 9011,
+      "server_port": 9078,
       "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa"
+      "password": "JCJpbRbQZNw9XFZG"
     },
     {
       "type": "shadowsocks",
@@ -52,9 +39,9 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 05 - xiaohe",
       "server": "195.238.126.20",
-      "server_port": 9012,
+      "server_port": 9086,
       "method": "aes-256-cfb",
-      "password": "xaupMUvhptwxdDUg"
+      "password": "37Z4TFCYhfxcpc9Q"
     },
     {
       "type": "vless",
@@ -68,7 +55,7 @@
         "server_name": "cloud.figmafound.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -80,16 +67,16 @@
     {
       "type": "vless",
       "tag": "🇱🇹 立陶宛 (Lithuania) 07 - xiaohe",
-      "server": "mail.figmafound.org",
+      "server": "103.139.51.21",
       "server_port": 443,
       "uuid": "71b91642-93ed-4923-8cab-877e19bfc2d6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "mail.figmafound.org",
+        "server_name": "auth.figmafound.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -101,27 +88,6 @@
     {
       "type": "vless",
       "tag": "🇱🇹 立陶宛 (Lithuania) 08 - xiaohe",
-      "server": "auth.figmafound.org",
-      "server_port": 443,
-      "uuid": "71b91642-93ed-4923-8cab-877e19bfc2d6",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "auth.figmafound.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24",
-          "short_id": "711ad7f475c35e5e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 09 - xiaohe",
       "server": "lt.aether-runet.top",
       "server_port": 443,
       "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
@@ -152,8 +118,7 @@
         "🇱🇹 立陶宛 (Lithuania) 05 - xiaohe",
         "🇱🇹 立陶宛 (Lithuania) 06 - xiaohe",
         "🇱🇹 立陶宛 (Lithuania) 07 - xiaohe",
-        "🇱🇹 立陶宛 (Lithuania) 08 - xiaohe",
-        "🇱🇹 立陶宛 (Lithuania) 09 - xiaohe"
+        "🇱🇹 立陶宛 (Lithuania) 08 - xiaohe"
       ]
     },
     {
@@ -167,8 +132,7 @@
         "🇱🇹 立陶宛 (Lithuania) 05 - xiaohe",
         "🇱🇹 立陶宛 (Lithuania) 06 - xiaohe",
         "🇱🇹 立陶宛 (Lithuania) 07 - xiaohe",
-        "🇱🇹 立陶宛 (Lithuania) 08 - xiaohe",
-        "🇱🇹 立陶宛 (Lithuania) 09 - xiaohe"
+        "🇱🇹 立陶宛 (Lithuania) 08 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
