@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
-  server: 207.148.99.230
+  server: 89.116.88.158
   port: 443
   udp: true
   type: vless
@@ -16,7 +16,7 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /test/company/library?ed=2560
+    path: /drama/zh?ed=2560
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:

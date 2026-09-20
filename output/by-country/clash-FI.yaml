@@ -24,18 +24,6 @@ proxies:
   servername: est1313.ggisopi.su
   client-fingerprint: chrome
 - name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: 95.216.27.15
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
-  tls: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-    short-id: d368b94e275ab080
-  servername: www.google.com
-  client-fingerprint: random
-- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
   server: 37.143.129.244
   port: 443
   udp: true
@@ -47,7 +35,19 @@ proxies:
     public-key: 5HArul2NDXfFUxijHj1xiPCfH-77zuuRxylT1vWIvUY
     short-id: 48fd192dc4e46bc0
   servername: gateway.icloud.com
-  client-fingerprint: random
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  server: 95.216.27.15
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  tls: true
+  reality-opts:
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+    short-id: d368b94e275ab080
+  servername: www.google.com
+  client-fingerprint: chrome
 - name: 🇫🇮 芬兰 (Finland) 05 - xiaohe
   server: 185.79.138.71
   port: 448
@@ -59,7 +59,7 @@ proxies:
     public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
     short-id: cd21e552537c7c0b
   servername: www.samsung.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇫🇮 芬兰 (Finland) 06 - xiaohe
   server: 65.108.3.59
   port: 443
@@ -72,34 +72,8 @@ proxies:
     public-key: jDoORbrtDrvAlFSo19CJbc99C4ev8SAo1MwczSUt9no
     short-id: 90ec9bba2019
   servername: web.eitaa.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇫🇮 芬兰 (Finland) 07 - xiaohe
-  server: 62.238.103.54
-  port: 2083
-  udp: true
-  type: vless
-  uuid: d78de562-872e-43dd-be48-e9d7b06c87a3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: tADYkZWWksM_mCqqwlRHCciSCXnP3JMYrPi5eoRHh2s
-    short-id: d059fb98048c5318
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 08 - xiaohe
-  server: 31.77.199.182
-  port: 443
-  udp: true
-  type: vless
-  uuid: c09cfd91-b234-4998-9bed-a0211b7f5c3c
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: -qLezG1nUEtvOJi-Ra7WRYv-aHkv3PSefEuXpWV2G04
-    short-id: abcd1234
-  servername: fi2.yservice.help
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 09 - xiaohe
   server: 31.77.199.147
   port: 4443
   udp: true
@@ -111,7 +85,33 @@ proxies:
     public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
     short-id: 7da2eae792187ab9
   servername: images.unsplash.com
-  client-fingerprint: random
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 08 - xiaohe
+  server: 2.27.48.140
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7cbc0c1f-9aa1-4a4c-a052-45ccc855df10
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Ax1xKjjBS7afZ94zHY-9iI7hohBmzA-EpS-eRILX2CA
+    short-id: c66279532e2e
+  servername: intel.com
+  client-fingerprint: safari
+- name: 🇫🇮 芬兰 (Finland) 09 - xiaohe
+  server: 31.77.199.182
+  port: 443
+  udp: true
+  type: vless
+  uuid: c09cfd91-b234-4998-9bed-a0211b7f5c3c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: -qLezG1nUEtvOJi-Ra7WRYv-aHkv3PSefEuXpWV2G04
+    short-id: abcd1234
+  servername: fi2.yservice.help
+  client-fingerprint: firefox
 - name: 🇫🇮 芬兰 (Finland) 10 - xiaohe
   server: 31.76.80.238
   port: 443
@@ -124,9 +124,9 @@ proxies:
     public-key: j7_ysAZxK5vBkMqvu0r8_UUuR3Qp7Yml3fXFDGR5x3w
     short-id: 573703f224b75e8c
   servername: jujujuj.mervi.icu
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇫🇮 芬兰 (Finland) 11 - xiaohe
-  server: 196.196.206.38
+  server: finkafsb.finiki.lol
   port: 443
   udp: true
   type: vless
@@ -137,15 +137,20 @@ proxies:
     public-key: YBKHp6R7xp2Ss2kxbvDNMFPpRrf3oh1wQ2dVMukPHmA
     short-id: d110331f200987ae
   servername: finkafsb.finiki.lol
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇫🇮 芬兰 (Finland) 12 - xiaohe
-  server: fr.vpn.legendaah.xyz
-  port: 36723
+  server: 62.238.103.54
+  port: 2083
   udp: true
-  type: hysteria2
-  password: Krab9Hyst2_Rk7pQ2xL
-  sni: 'off'
-  skip-cert-verify: true
+  type: vless
+  uuid: d78de562-872e-43dd-be48-e9d7b06c87a3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: tADYkZWWksM_mCqqwlRHCciSCXnP3JMYrPi5eoRHh2s
+    short-id: d059fb98048c5318
+  servername: www.yahoo.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

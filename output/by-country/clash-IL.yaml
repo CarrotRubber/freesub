@@ -16,16 +16,24 @@ proxies:
     public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
     short-id: a3a578ab
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇮🇱 以色列 (Israel) 02 - xiaohe
   server: 176.65.151.237
-  port: 13054
+  port: 31770
   udp: true
   type: vless
-  uuid: b08daec7-2ced-43bc-97df-783d6633cd5a
+  uuid: bb9ae0d0-a91f-49e2-914b-1280276e4b30
   network: grpc
   grpc-opts:
     grpc-service-name: ''
+- name: 🇮🇱 以色列 (Israel) 03 - xiaohe
+  server: 129.159.156.109
+  port: 50160
+  udp: true
+  type: hysteria2
+  password: f25f19f29ce3fb53a35bf1b35b452a43
+  sni: www.bing.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -33,6 +41,7 @@ proxy-groups:
   - AUTO
   - 🇮🇱 以色列 (Israel) 01 - xiaohe
   - 🇮🇱 以色列 (Israel) 02 - xiaohe
+  - 🇮🇱 以色列 (Israel) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -40,5 +49,6 @@ proxy-groups:
   proxies:
   - 🇮🇱 以色列 (Israel) 01 - xiaohe
   - 🇮🇱 以色列 (Israel) 02 - xiaohe
+  - 🇮🇱 以色列 (Israel) 03 - xiaohe
 rules:
 - MATCH,PROXIES

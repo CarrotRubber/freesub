@@ -5,25 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-  port: 443
+  server: 194.58.43.245
+  port: 2089
   udp: true
   type: vless
-  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
-  tls: true
-  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /pRXE5ot0RZaQSr7B
-    headers:
-      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  uuid: d144d943-46bd-41ce-af2c-06358c845616
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 153.76.185.84
+  server: 153.76.185.144
   port: 3090
   udp: true
   type: vless
-  uuid: 995b4d19-8c0d-4f81-a199-35a4f1d7744e
+  uuid: a9a813b7-13ea-45f4-b8de-922b9bdd2db2
   network: grpc
   grpc-opts:
     grpc-service-name: vless
