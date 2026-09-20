@@ -5,21 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  server: 193.42.39.10
-  port: 33743
+  server: 143.246.196.152
+  port: 8081
   udp: true
   type: vless
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  tls: true
-  reality-opts:
-    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
-  servername: www.google.com
-  client-fingerprint: ios
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  network: ws
+  ws-opts:
+    path: /vless-test
 - name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
-  server: 143.246.196.152
+  server: 143.246.195.138
   port: 8081
   udp: true
   type: vless
@@ -45,7 +40,44 @@ proxies:
   sni: cf2.rumedia-cdn.com
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 05 - xiaohe
-  server: svvedko.nxxzxaw.beer
+  server: 193.42.39.10
+  port: 33743
+  udp: true
+  type: vless
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  tls: true
+  reality-opts:
+    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
+  servername: www.google.com
+  client-fingerprint: ''
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇸🇪 瑞典 (Sweden) 06 - xiaohe
+  server: 91.193.17.156
+  port: 9458
+  udp: true
+  type: vless
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  tls: true
+  reality-opts:
+    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
+  servername: www.google.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇸🇪 瑞典 (Sweden) 07 - xiaohe
+  server: 143.246.194.60
+  port: 8081
+  udp: true
+  type: vless
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  network: ws
+  ws-opts:
+    path: /vless-test
+- name: 🇸🇪 瑞典 (Sweden) 08 - xiaohe
+  server: 5.157.10.147
   port: 443
   udp: true
   type: vless
@@ -57,64 +89,21 @@ proxies:
     short-id: fb442438e2223836
   servername: svvedko.nxxzxaw.beer
   client-fingerprint: random
-- name: 🇸🇪 瑞典 (Sweden) 06 - xiaohe
-  server: se.belka.network
-  port: 443
-  udp: true
-  type: vless
-  uuid: c47b421f-65f1-4190-b7ba-bd2045086fe4
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI
-    short-id: 7f2e9c4b1a8d6e53
-  servername: yahoo.com
-  client-fingerprint: firefox
-- name: 🇸🇪 瑞典 (Sweden) 07 - xiaohe
-  server: 77.110.117.199
-  port: 9443
-  udp: true
-  type: vless
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-  tls: true
-  servername: hub-se-03.hanvpn.cc
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: se03-grpc-8e47a
-- name: 🇸🇪 瑞典 (Sweden) 08 - xiaohe
-  server: 91.193.17.156
-  port: 9458
-  udp: true
-  type: vless
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  tls: true
-  reality-opts:
-    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
-  servername: www.google.com
-  client-fingerprint: ios
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
 - name: 🇸🇪 瑞典 (Sweden) 09 - xiaohe
-  server: 143.246.195.138
-  port: 8081
+  server: 157.228.142.148
+  port: 8443
   udp: true
   type: vless
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vless-test
-- name: 🇸🇪 瑞典 (Sweden) 10 - xiaohe
-  server: 143.246.194.60
-  port: 8081
-  udp: true
-  type: vless
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  network: ws
-  ws-opts:
-    path: /vless-test
+    path: /act/rank/lang
+    headers:
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -129,7 +118,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 07 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 08 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 09 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -144,6 +132,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 07 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 08 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 09 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 10 - xiaohe
 rules:
 - MATCH,PROXIES
