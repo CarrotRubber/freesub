@@ -5,43 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: 104.17.169.13
-  port: 2053
-  udp: true
-  type: vless
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
-  tls: true
-  servername: index.harmonica01.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /axch1mttbxz2k55y01
-    headers:
-      Host: index.harmonica01.workers.dev
-- name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  server: 93.190.9.9
-  port: 3090
-  udp: true
-  type: vless
-  uuid: c4a36c29-39db-4782-b7cb-6e391461a999
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
-- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  server: 31.214.152.140
-  port: 443
-  udp: true
-  type: vless
-  uuid: ad297a2b-ae17-4d2d-8fce-e2eafb89b145
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: bjqOUjqNQMF6NZ2kRis0NTNTcpdLBrr7CvZjFATrhg8
-    short-id: 08
-  servername: dw.b-cdn.net
-  client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
   server: 78.135.73.47
   port: 443
   udp: true
@@ -54,7 +17,7 @@ proxies:
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
   client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+- name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   server: 151.241.226.201
   port: 2053
   udp: true
@@ -66,6 +29,18 @@ proxies:
     short-id: 9e419c0759b54d6f
   servername: www.apple.com
   client-fingerprint: firefox
+- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+  server: 206.1.97.61
+  port: 443
+  udp: true
+  type: vless
+  uuid: 416cea75-4802-43b1-8f31-c7fa1e211a6a
+  tls: true
+  reality-opts:
+    public-key: GFREEsH4rFLnXKDLKXk0iTZNP5_d1zfKTj8DUE0L6RE
+    short-id: d7397feef49deef9
+  servername: Miro.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -74,8 +49,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -84,7 +57,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
 rules:
 - MATCH,PROXIES

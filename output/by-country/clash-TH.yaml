@@ -14,7 +14,7 @@ proxies:
   ws-opts:
     path: /ws
     headers:
-      Host: v2ray.simspeedup.com
+      Host: aIs.SpEeDtEsT.nEt
 - name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
   server: 34.15.162.1
   port: 443
@@ -26,9 +26,9 @@ proxies:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
     short-id: ca672c53fbbac555
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: safari
 - name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
-  server: 104.21.34.106
+  server: 104.16.10.2
   port: 443
   udp: true
   type: vless
@@ -41,6 +41,20 @@ proxies:
     path: /ws
     headers:
       Host: v2ray.simspeedup.com
+- name: 🇹🇭 泰国 (Thailand) 04 - xiaohe
+  server: 160.30.54.63
+  port: 443
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /channel?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -49,6 +63,7 @@ proxy-groups:
   - 🇹🇭 泰国 (Thailand) 01 - xiaohe
   - 🇹🇭 泰国 (Thailand) 02 - xiaohe
   - 🇹🇭 泰国 (Thailand) 03 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -57,5 +72,6 @@ proxy-groups:
   - 🇹🇭 泰国 (Thailand) 01 - xiaohe
   - 🇹🇭 泰国 (Thailand) 02 - xiaohe
   - 🇹🇭 泰国 (Thailand) 03 - xiaohe
+  - 🇹🇭 泰国 (Thailand) 04 - xiaohe
 rules:
 - MATCH,PROXIES
