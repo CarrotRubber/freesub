@@ -7,33 +7,27 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9064,
+      "server_port": 9085,
       "method": "aes-256-cfb",
-      "password": "cp8pRSUAyLhTfVWH"
+      "password": "9ej82EKe2gq7gLAM"
     },
     {
       "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe",
       "server": "192.145.31.5",
-      "server_port": 8443,
+      "server_port": 443,
       "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
-      "tls": {
-        "enabled": true,
-        "server_name": "neth9.lunariai.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+      "transport": {
+        "type": "ws"
       }
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe",
       "server": "213.183.63.60",
-      "server_port": 9054,
+      "server_port": 9064,
       "method": "aes-256-cfb",
-      "password": "VcFuyXvND2yQWSFY"
+      "password": "cp8pRSUAyLhTfVWH"
     },
     {
       "type": "vless",
@@ -47,7 +41,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -57,45 +51,8 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe",
-      "server": "213.183.63.60",
-      "server_port": 9049,
-      "method": "aes-256-cfb",
-      "password": "PRBf4BS2HvJqtWxY"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe",
-      "server": "213.183.63.60",
-      "server_port": 9098,
-      "method": "aes-256-cfb",
-      "password": "aLpQtfEZe445QyHk"
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe",
-      "server": "131.123.41.31",
-      "server_port": 8081,
-      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
-      "transport": {
-        "type": "ws",
-        "path": "/vless-test"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe",
-      "server": "192.145.31.5",
-      "server_port": 443,
-      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
-      "transport": {
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
       "server": "131.123.41.18",
       "server_port": 8081,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
@@ -106,8 +63,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe",
-      "server": "131.123.37.199",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe",
+      "server": "131.123.39.29",
       "server_port": 8081,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
       "transport": {
@@ -117,7 +74,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe",
       "server": "131.123.41.177",
       "server_port": 8081,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
@@ -128,7 +85,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe",
       "server": "131.123.41.18",
       "server_port": 443,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
@@ -138,7 +95,7 @@
         "server_name": "sheetpeek.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -149,7 +106,23 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe",
+      "server": "192.145.31.5",
+      "server_port": 8443,
+      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
+      "tls": {
+        "enabled": true,
+        "server_name": "neth9.lunariai.ru",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe",
       "server": "45.9.156.103",
       "server_port": 443,
       "uuid": "e633de28-bfc0-4aca-aa67-e2e12e2c9e58",
@@ -170,8 +143,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 14 - xiaohe",
-      "server": "131.123.39.29",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 11 - xiaohe",
+      "server": "131.123.41.31",
       "server_port": 8081,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
       "transport": {
@@ -180,16 +153,63 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 15 - xiaohe",
-      "server": "213.183.63.60",
-      "server_port": 9085,
-      "method": "aes-256-cfb",
-      "password": "9ej82EKe2gq7gLAM"
+      "type": "vless",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe",
+      "server": "131.123.37.199",
+      "server_port": 8081,
+      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-test"
+      }
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 16 - xiaohe",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe",
+      "server": "108.165.233.223",
+      "server_port": 443,
+      "uuid": "2388e166-3890-33ae-f77e-efac00000001",
+      "tls": {
+        "enabled": true,
+        "server_name": "netlivpn4813.ddhshhshs.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN",
+        "headers": {
+          "Host": "netlivpn4813.ddhshhshs.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 14 - xiaohe",
+      "server": "144.31.50.236",
+      "server_port": 443,
+      "uuid": "1c332eae-7e02-4acd-996d-4eb3e652401c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM",
+          "short_id": "bbe46bd8f6b96839"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 15 - xiaohe",
       "server": "131.123.39.29",
       "server_port": 443,
       "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
@@ -199,7 +219,7 @@
         "server_name": "sheetpeek.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -227,8 +247,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 14 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 15 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 16 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 15 - xiaohe"
       ]
     },
     {
@@ -249,8 +268,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 12 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 13 - xiaohe",
         "🇧🇬 保加利亚 (Bulgaria) 14 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 15 - xiaohe",
-        "🇧🇬 保加利亚 (Bulgaria) 16 - xiaohe"
+        "🇧🇬 保加利亚 (Bulgaria) 15 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
