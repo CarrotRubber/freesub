@@ -12,7 +12,7 @@ proxies:
   cipher: aes-256-cfb
   password: xaupMUvhptwxdDUg
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
-  server: 84.32.215.94
+  server: 84.32.215.5
   port: 443
   udp: true
   type: vless
@@ -23,20 +23,14 @@ proxies:
     public-key: vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk
     short-id: 4fa44664f6a566d3
   servername: lt.aether-runet.top
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇱🇹 立陶宛 (Lithuania) 03 - xiaohe
-  server: 5.199.169.170
-  port: 443
+  server: 195.238.126.20
+  port: 9008
   udp: true
-  type: vless
-  uuid: cb4259d5-9c7e-4b7d-b766-5deae8044b45
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg
-    short-id: 20f690531579cc72
-  servername: westcostlt.responsiblecare.uk
-  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-cfb
+  password: y9VURyNzJWNRYEGQ
 proxy-groups:
 - name: PROXIES
   type: select

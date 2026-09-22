@@ -25,19 +25,6 @@ proxies:
     short-id: 0888830f7006f1
   servername: addons.mozilla.org
   client-fingerprint: chrome
-- name: 🇲🇾 马来西亚 (Malaysia) 03 - xiaohe
-  server: clhkzzzdbgwxxndnlm.cfooov.xyz
-  port: 60507
-  udp: true
-  type: vless
-  uuid: edc17c6e-bb58-4a98-a4a8-ca37aa8b56d2
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: zCNI8OUsvp6NKt52Z_93OoqegAjbVjzP2tHGXd3cQjM
-    short-id: 0888830f7006f1
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -45,7 +32,6 @@ proxy-groups:
   - AUTO
   - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
   - 🇲🇾 马来西亚 (Malaysia) 02 - xiaohe
-  - 🇲🇾 马来西亚 (Malaysia) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -53,6 +39,5 @@ proxy-groups:
   proxies:
   - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
   - 🇲🇾 马来西亚 (Malaysia) 02 - xiaohe
-  - 🇲🇾 马来西亚 (Malaysia) 03 - xiaohe
 rules:
 - MATCH,PROXIES
