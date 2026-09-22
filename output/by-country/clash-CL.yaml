@@ -5,18 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇱 智利 (Chile) 01 - xiaohe
-  server: 34.176.98.128
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5
-  tls: true
-  reality-opts:
-    public-key: 3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw
-    short-id: d7676b6a468a03b3
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇨🇱 智利 (Chile) 02 - xiaohe
   server: platform109.golnamakcert.top
   port: 80
   udp: true
@@ -27,7 +15,7 @@ proxies:
     path: /platform109
     headers:
       Host: platform109.halalkhor.info
-- name: 🇨🇱 智利 (Chile) 03 - xiaohe
+- name: 🇨🇱 智利 (Chile) 02 - xiaohe
   server: platform117.golnamakcert.top
   port: 80
   udp: true
@@ -38,7 +26,7 @@ proxies:
     path: /platform117
     headers:
       Host: platform117.halalkhor.info
-- name: 🇨🇱 智利 (Chile) 04 - xiaohe
+- name: 🇨🇱 智利 (Chile) 03 - xiaohe
   server: platform118.golnamakcert.top
   port: 80
   udp: true
@@ -57,7 +45,6 @@ proxy-groups:
   - 🇨🇱 智利 (Chile) 01 - xiaohe
   - 🇨🇱 智利 (Chile) 02 - xiaohe
   - 🇨🇱 智利 (Chile) 03 - xiaohe
-  - 🇨🇱 智利 (Chile) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -66,6 +53,5 @@ proxy-groups:
   - 🇨🇱 智利 (Chile) 01 - xiaohe
   - 🇨🇱 智利 (Chile) 02 - xiaohe
   - 🇨🇱 智利 (Chile) 03 - xiaohe
-  - 🇨🇱 智利 (Chile) 04 - xiaohe
 rules:
 - MATCH,PROXIES
