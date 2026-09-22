@@ -35,7 +35,7 @@
     {
       "type": "vless",
       "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-      "server": "austria-dedic1.failspace.top",
+      "server": "50.7.184.190",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
       "flow": "xtls-rprx-vision",
@@ -43,9 +43,6 @@
         "enabled": true,
         "server_name": "austria-dedic1.failspace.top",
         "insecure": false,
-        "alpn": [
-          "h2"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -55,23 +52,21 @@
     {
       "type": "vless",
       "tag": "🇦🇹 奥地利 (Austria) 04 - xiaohe",
-      "server": "132.243.203.243",
-      "server_port": 8443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "server": "eat8xny7.selqora.ir",
+      "server_port": 51595,
+      "uuid": "d9826bd9-1023-4a3b-895e-3ba9d64061f2",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": false,
+        "server_name": "ads.aparat.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/archive?ed=2560",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "2r94D7GhoZK4inffwafDlMW23Rqj1YVR5871e8EHADs",
+          "short_id": "155e0ffd717f90d8"
         }
       }
     },

@@ -25,7 +25,7 @@ proxies:
   servername: at.quattro-tech.ru
   client-fingerprint: chrome
 - name: 🇦🇹 奥地利 (Austria) 03 - xiaohe
-  server: austria-dedic1.failspace.top
+  server: 50.7.184.190
   port: 443
   udp: true
   type: vless
@@ -36,20 +36,18 @@ proxies:
   skip-cert-verify: false
   client-fingerprint: firefox
 - name: 🇦🇹 奥地利 (Austria) 04 - xiaohe
-  server: 132.243.203.243
-  port: 8443
+  server: eat8xny7.selqora.ir
+  port: 51595
   udp: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: d9826bd9-1023-4a3b-895e-3ba9d64061f2
+  flow: xtls-rprx-vision
   tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
+  reality-opts:
+    public-key: 2r94D7GhoZK4inffwafDlMW23Rqj1YVR5871e8EHADs
+    short-id: 155e0ffd717f90d8
+  servername: ads.aparat.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /archive?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
