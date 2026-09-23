@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: 193.56.135.212
+  server: 193.56.135.233
   port: 9543
   udp: true
   type: vless
@@ -16,9 +16,9 @@ proxies:
     public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
     short-id: 123abcde
   servername: storage.yandexcloud.net
-  client-fingerprint: safari
+  client-fingerprint: chrome
 - name: 🇮🇶 IQ 02 - xiaohe
-  server: 185.255.179.11
+  server: 193.8.215.96
   port: 9443
   udp: true
   type: vless
@@ -26,6 +26,7 @@ proxies:
   tls: true
   servername: hub-de-03.hanvpn.cc
   skip-cert-verify: false
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: de03-grpc-8e47a
