@@ -5,20 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 172.67.153.156
+  server: nomino.11hi8itbaf.workers.dev
   port: 443
   udp: true
-  type: vless
-  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: ccs2g.pai50288.uk
+  servername: nomino.11hi8itbaf.workers.dev
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /pai50288
-    headers:
-      Host: ccs2g.pai50288.uk
+    path: /guanwang.awsno.com/hls/cctv5phd.m3u8
 proxy-groups:
 - name: PROXIES
   type: select
