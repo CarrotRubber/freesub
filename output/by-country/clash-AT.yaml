@@ -23,35 +23,7 @@ proxies:
     public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
     short-id: 43dcff53849b81e6
   servername: at.quattro-tech.ru
-  client-fingerprint: chrome
-- name: 🇦🇹 奥地利 (Austria) 03 - xiaohe
-  server: 45.86.245.107
-  port: 5865
-  udp: true
-  type: vless
-  uuid: ce230b9c-0531-40da-bc3f-f27a8e059db1
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1UlHWXQ11dMmBYHq7XYsyKnfPVGTh9UssmiJE_zRnjI
-    short-id: a4f7c2e91b6d8035
-  servername: ru.vkroom-it-service.xyz
-  client-fingerprint: safari
-- name: 🇦🇹 奥地利 (Austria) 04 - xiaohe
-  server: 91.186.218.227
-  port: 4443
-  udp: true
-  type: vless
-  uuid: 60dca33b-7804-41da-b158-ecf71d95ff85
-  tls: true
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
@@ -59,8 +31,6 @@ proxy-groups:
   - AUTO
   - 🇦🇹 奥地利 (Austria) 01 - xiaohe
   - 🇦🇹 奥地利 (Austria) 02 - xiaohe
-  - 🇦🇹 奥地利 (Austria) 03 - xiaohe
-  - 🇦🇹 奥地利 (Austria) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -68,7 +38,5 @@ proxy-groups:
   proxies:
   - 🇦🇹 奥地利 (Austria) 01 - xiaohe
   - 🇦🇹 奥地利 (Austria) 02 - xiaohe
-  - 🇦🇹 奥地利 (Austria) 03 - xiaohe
-  - 🇦🇹 奥地利 (Austria) 04 - xiaohe
 rules:
 - MATCH,PROXIES

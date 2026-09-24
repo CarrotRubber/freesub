@@ -5,11 +5,11 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 153.76.185.148
+  server: 153.76.185.96
   port: 3090
   udp: true
   type: vless
-  uuid: 1552d599-a036-4389-a5c0-bf14dfaddc1a
+  uuid: be2c444d-74a1-407c-a88c-cba06f9a58dc
   network: grpc
   grpc-opts:
     grpc-service-name: vless

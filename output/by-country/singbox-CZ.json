@@ -6,9 +6,9 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "153.76.185.148",
+      "server": "153.76.185.96",
       "server_port": 3090,
-      "uuid": "1552d599-a036-4389-a5c0-bf14dfaddc1a",
+      "uuid": "be2c444d-74a1-407c-a88c-cba06f9a58dc",
       "transport": {
         "type": "grpc",
         "service_name": "vless"

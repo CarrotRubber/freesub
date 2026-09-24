@@ -5,57 +5,21 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "128.241.25.11",
-      "server_port": 30021,
-      "uuid": "e22b50d5-dcc5-4dff-afd6-6124a2f08545",
-      "tls": {
-        "enabled": true,
-        "server_name": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev",
-        "insecure": false
-      },
+      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
+      "server": "172.64.42.85",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
-        "path": "/@Marisa_kristi",
+        "path": "/?ed=2560security=tls",
         "headers": {
-          "Host": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-      "server": "36.224.141.124",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    },
-    {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 03 (家宽) - xiaohe",
-      "server": "57.129.130.10",
-      "server_port": 52014,
-      "uuid": "395bab7e-302a-42b4-bac7-8acb7d36fdf3",
-      "tls": {
-        "enabled": true,
-        "server_name": "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
       "server": "118.167.206.152",
       "server_port": 24215,
       "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
@@ -64,7 +28,7 @@
         "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -78,20 +42,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 03 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 03 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

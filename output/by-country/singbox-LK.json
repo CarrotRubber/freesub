@@ -5,24 +5,15 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe",
-      "server": "104.21.117.9",
-      "server_port": 443,
-      "uuid": "0926b50d-3a90-18dd-7c8e-0cf100000000",
-      "tls": {
-        "enabled": true,
-        "server_name": "netlivpn4024.bgfjhd.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe",
+      "server": "support.zoom.us",
+      "server_port": 80,
+      "uuid": "684f9a2e-4f96-497f-bfd9-ff1e34637952",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "netlivpn4024.bgfjhd.workers.dev"
+          "Host": "free.sahanwickramasinghe.me"
         }
       }
     },
@@ -31,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe"
+        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe"
+        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
