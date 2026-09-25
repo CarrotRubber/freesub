@@ -5,24 +5,27 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
-      "server": "45.164.20.114",
-      "server_port": 10226,
-      "uuid": "9aab8f39-ccb3-44ea-acdc-a8aefe211287"
+      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe",
+      "server": "free.sahanwickramasinghe.me",
+      "server_port": 80,
+      "uuid": "684f9a2e-4f96-497f-bfd9-ff1e34637952",
+      "transport": {
+        "type": "ws"
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
+        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
+        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

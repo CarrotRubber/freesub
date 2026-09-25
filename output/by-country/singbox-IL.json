@@ -15,7 +15,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -27,6 +27,27 @@
     {
       "type": "vless",
       "tag": "🇮🇱 以色列 (Israel) 02 - xiaohe",
+      "server": "185.95.231.233",
+      "server_port": 443,
+      "uuid": "1ffa8e68-3378-4cf4-b8f6-44bf3d46d106",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "store.steampowered.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "r4Dp3mztZaizbDk28rEOkLikk7erR9dzzc-Jrsgraho",
+          "short_id": "a1b2c3d4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇱 以色列 (Israel) 03 - xiaohe",
       "server": "193.202.10.2",
       "server_port": 40443,
       "uuid": "bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54",
@@ -36,7 +57,7 @@
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -47,46 +68,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇱 以色列 (Israel) 03 - xiaohe",
-      "server": "platform115.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform115"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇮🇱 以色列 (Israel) 04 - xiaohe",
-      "server": "platform101.golnamakcert.top",
+      "server": "64.176.164.173",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform101",
+        "path": "/platform113",
         "headers": {
-          "Host": "platform101.halalkhor.info"
+          "Host": "platform113.halalkhor.info"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇮🇱 以色列 (Israel) 05 - xiaohe",
-      "server": "platform102.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "transport": {
-        "type": "ws",
-        "path": "/platform102",
-        "headers": {
-          "Host": "platform102.halalkhor.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇱 以色列 (Israel) 06 - xiaohe",
       "server": "platform117.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -95,6 +91,20 @@
         "path": "/platform117",
         "headers": {
           "Host": "platform117.halalkhor.info"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇱 以色列 (Israel) 06 - xiaohe",
+      "server": "platform102.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform102",
+        "headers": {
+          "Host": "platform102.halalkhor.info"
         }
       }
     },
@@ -115,35 +125,28 @@
     {
       "type": "vless",
       "tag": "🇮🇱 以色列 (Israel) 08 - xiaohe",
-      "server": "platform113.golnamakcert.top",
+      "server": "platform115.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
         "type": "ws",
-        "path": "/platform113",
+        "path": "/platform115",
         "headers": {
-          "Host": "platform113.halalkhor.info"
+          "Host": "platform115.halalkhor.info"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇮🇱 以色列 (Israel) 09 - xiaohe",
-      "server": "185.249.153.108",
-      "server_port": 443,
-      "uuid": "4cf9c712-11c4-47d8-aa31-a1693a1aa4e5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.nordivablog.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xOJ3INBNzRKOKYGQZmSYczgTjTKwdYQ4BFfc75wVazw",
-          "short_id": "73c9e31ccafda20e"
+      "server": "platform101.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "transport": {
+        "type": "ws",
+        "path": "/platform101",
+        "headers": {
+          "Host": "platform101.halalkhor.info"
         }
       }
     },

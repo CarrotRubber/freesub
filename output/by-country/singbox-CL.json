@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🇨🇱 智利 (Chile) 01 - xiaohe",
-      "server": "platform109.golnamakcert.top",
+      "server": "64.176.4.15",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
@@ -20,7 +20,7 @@
     {
       "type": "vless",
       "tag": "🇨🇱 智利 (Chile) 02 - xiaohe",
-      "server": "platform108.golnamakcert.top",
+      "server": "64.176.21.237",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "transport": {
