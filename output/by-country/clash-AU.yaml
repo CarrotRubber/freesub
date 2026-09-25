@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  server: 82.198.246.233
+  server: 82.198.246.37
   port: 180
   udp: true
   type: vmess
@@ -13,14 +13,13 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
-  server: 172.105.169.70
-  port: 443
+  server: 149.88.23.207
+  port: 18000
   udp: true
-  type: vless
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  tls: true
-  servername: 172.105.169.70
-  skip-cert-verify: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
 - name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
   server: 51.161.204.244
   port: 443
@@ -35,11 +34,20 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
+  server: 172.105.169.70
+  port: 443
+  udp: true
+  type: vless
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  tls: true
+  servername: 172.105.169.70
+  skip-cert-verify: true
+- name: 🇦🇺 澳大利亚 (Australia) 05 - xiaohe
   server: au1.gsafevpnapi.com
   port: 20270
   udp: true
   type: vless
-  uuid: 38b8e2fb-b9a0-40a6-b42c-335def2765cf
+  uuid: 6eef3a79-22bc-4086-b5e6-95e07db73016
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -47,16 +55,6 @@ proxies:
     short-id: e6a5a4a9115456de
   servername: www.yahoo.com
   client-fingerprint: chrome
-- name: 🇦🇺 澳大利亚 (Australia) 05 - xiaohe
-  server: 152.67.115.203
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 633bc3be486b646190661ac2387c150a
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
 proxy-groups:
 - name: PROXIES
   type: select
