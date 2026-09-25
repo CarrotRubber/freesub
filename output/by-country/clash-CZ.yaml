@@ -5,20 +5,11 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 153.76.185.93
+  server: 153.76.185.187
   port: 3090
   udp: true
   type: vless
-  uuid: 52504f52-ddd4-43fe-9fc6-8fb354ca2a2f
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 153.76.185.100
-  port: 3090
-  udp: true
-  type: vless
-  uuid: 0ea51e02-ed67-439b-a562-7e3d7b4430c3
+  uuid: 8a258586-34ed-461c-bc95-26dfb49a7aa9
   network: grpc
   grpc-opts:
     grpc-service-name: vless
@@ -28,13 +19,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
 rules:
 - MATCH,PROXIES
