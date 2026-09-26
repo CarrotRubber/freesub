@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe",
-      "server": "35.176.47.30",
+      "server": "52.56.136.35",
       "server_port": 22223,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e"
     },
@@ -22,7 +22,7 @@
         "server_name": "www.tesla.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -34,13 +34,6 @@
     {
       "type": "vless",
       "tag": "🇮🇪 爱尔兰 (Ireland) 03 - xiaohe",
-      "server": "18.169.126.60",
-      "server_port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 04 - xiaohe",
       "server": "ireland-new-ded1.failspace.top",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
@@ -48,7 +41,11 @@
       "tls": {
         "enabled": true,
         "server_name": "ireland-new-ded1.failspace.top",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -58,8 +55,7 @@
         "auto",
         "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe",
         "🇮🇪 爱尔兰 (Ireland) 02 - xiaohe",
-        "🇮🇪 爱尔兰 (Ireland) 03 - xiaohe",
-        "🇮🇪 爱尔兰 (Ireland) 04 - xiaohe"
+        "🇮🇪 爱尔兰 (Ireland) 03 - xiaohe"
       ]
     },
     {
@@ -68,8 +64,7 @@
       "outbounds": [
         "🇮🇪 爱尔兰 (Ireland) 01 - xiaohe",
         "🇮🇪 爱尔兰 (Ireland) 02 - xiaohe",
-        "🇮🇪 爱尔兰 (Ireland) 03 - xiaohe",
-        "🇮🇪 爱尔兰 (Ireland) 04 - xiaohe"
+        "🇮🇪 爱尔兰 (Ireland) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

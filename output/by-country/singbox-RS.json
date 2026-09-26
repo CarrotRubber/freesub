@@ -6,21 +6,7 @@
     {
       "type": "vless",
       "tag": "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe",
-      "server": "130.250.137.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime05.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇸 塞尔维亚 (Serbia) 02 - xiaohe",
-      "server": "176.108.246.58",
+      "server": "213.171.25.29",
       "server_port": 9889,
       "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
       "tls": {
@@ -33,7 +19,7 @@
         "reality": {
           "enabled": true,
           "public_key": "ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU",
-          "short_id": ""
+          "short_id": "aa"
         }
       },
       "transport": {
@@ -46,16 +32,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe",
-        "🇷🇸 塞尔维亚 (Serbia) 02 - xiaohe"
+        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe",
-        "🇷🇸 塞尔维亚 (Serbia) 02 - xiaohe"
+        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

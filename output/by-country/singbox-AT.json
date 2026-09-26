@@ -41,28 +41,19 @@
       "tls": {
         "enabled": true,
         "server_name": "filesconvert.org",
-        "insecure": true
+        "insecure": false
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇦🇹 奥地利 (Austria) 04 - xiaohe",
-      "server": "zcsagftt.selqora.ir",
-      "server_port": 51595,
-      "uuid": "a5f3e491-23aa-4293-a37a-93b20796adc2",
-      "flow": "xtls-rprx-vision",
+      "server": "86.106.119.23",
+      "server_port": 443,
+      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
       "tls": {
         "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SAEWzHGGBsp8haTh34RoN5NwoxiCgZzzJo7jWi-DJXw",
-          "short_id": "913175efbe9ddb1d"
-        }
+        "server_name": "gr.freeguard.org",
+        "insecure": false
       }
     },
     {

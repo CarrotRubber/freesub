@@ -5,22 +5,11 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 188.114.97.6
-  port: 8080
+  server: 153.76.185.104
+  port: 3090
   udp: true
   type: vless
-  uuid: 4908acbe-485f-4e1c-bb11-5dd04b9f7e88
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: restless-base-fe24.alirezahabibi20009.workers.dev
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 194.87.59.26
-  port: 2085
-  udp: true
-  type: vless
-  uuid: 720814fb-e38e-4570-97a7-c5df60352d37
+  uuid: 6bd9b04b-17de-4f05-b8b8-e5f2a0a649c1
   network: grpc
   grpc-opts:
     grpc-service-name: vless
@@ -30,13 +19,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
 rules:
 - MATCH,PROXIES
